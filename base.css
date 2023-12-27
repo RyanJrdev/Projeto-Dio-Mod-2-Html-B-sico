@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #b1afaffb;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgba(255, 145, 0, 0.801);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(255, 123, 0);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color:  rgb(255, 145, 0);
+    min-height: 150px;
+}
+ul{
+    list-style-type: none;
+    padding: 1px;
+}
+table thead td{
+   background-color: rgb(255, 190, 105);
+   color:rgb(0, 0, 0);
+   border:solid 1px black
+}
+table tbody tr:nth-child(even) td {
+    background-color:#f5c071;
+    border:solid 1px black
+}
+table{
+    border:solid 2px black
+    -webkit-box-shadow: 12px 14px 6px 5px rgba(0, 0, 0, 0,0.74);
+    box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.74);
+}
+table thead th{
+    border:solid 1px black;
+    color: rgb(2, 2, 2);
+    background-color: rgb(255, 124, 2);
+    font: 1px;
+}
+table tbody tr:hover td {
+    background-color:#f5c07186;
+    border:solid 1px black;
+    cursor:pointer;
+}
